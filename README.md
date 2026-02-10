@@ -10,4 +10,4 @@ Published work: Inhyuk Jang, Arun Yethiraj*, Effect of diffusion constant on the
   Compile (gfortran): gfortran -O3 -fopenmp -march=native -ffast-math mc.f90 -o mc.x
   Compile (ifx): ifx -O3 -qopenmp -xHost mc.f90 -o mc.x
 
-You need cond.dat for setting simulation parameteres. Other parameters are determined based on the semi-empirical values (see Aryanfar et. al.), so not recommended to modify unless you simulate deposition systems other than Lithium ion deposition. 
+You need cond.dat for setting simulation parameteres. Other parameters are determined based on the semi-empirical values (see the published work by I. Jang or Aryanfar et. al. above), so not recommended to modify unless you simulate deposition systems other than Lithium ion deposition. 
