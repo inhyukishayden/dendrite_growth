@@ -1,0 +1,7 @@
+1120         # nsd: Random number generator seed
+100000       # maxnf: Total number of particles
+0.085        # vanode: Electric potential at an anode
+1.0          # nuintv: Electric field update step interval
+1.0          # dt: Time step interval (default: 1.0)
+1.0          # rdrate: Control parameter for random diffusion
+1.0          # vaprob: Probability of deposition
